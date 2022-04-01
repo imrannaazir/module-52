@@ -1,0 +1,15 @@
+nav a{
+    text-decoration: none;
+    margin-left: 12px;
+    font-weight: 500;
+    color: gray;
+    
+}
+nav{
+    padding: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+
+}

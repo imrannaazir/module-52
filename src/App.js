@@ -5,11 +5,13 @@ import About from './componets/About/About';
 import { Route, Routes } from 'react-router-dom';
 import Home from './componets/Home/Home';
 import NOF from './componets/NOF/NOF';
+import Header from './componets/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello routers world .</h1>
+      <Header></Header>
+
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/about' element={<About />}></Route>
